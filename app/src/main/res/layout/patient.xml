@@ -9,25 +9,25 @@
 
 
     <TextView
-        android:id="@+id/tv3"
-        android:layout_width="244dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/tv4"
+        android:layout_width="239dp"
+        android:layout_height="67dp"
         android:layout_marginTop="10dp"
-        android:layout_x="93dp"
-        android:layout_y="20dp"
+        android:layout_x="86dp"
+        android:layout_y="28dp"
         android:text="Patient User"
         android:textColor="@color/black"
-        android:textSize="35sp"
+        android:textSize="40sp"
         android:textStyle="bold"
         tools:ignore="Hardcodedtext" />
 
     <Button
         android:id="@+id/btn"
-        android:layout_width="313dp"
+        android:layout_width="354dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:layout_x="53dp"
-        android:layout_y="235dp"
+        android:layout_x="27dp"
+        android:layout_y="184dp"
         android:text="Login"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -36,40 +36,20 @@
 
     <Button
         android:id="@+id/btn1"
-        android:layout_width="313dp"
+        android:layout_width="354dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
-        android:layout_x="46dp"
-        android:layout_y="294dp"
+        android:layout_x="27dp"
+        android:layout_y="265dp"
         android:text="Register"
         android:textSize="18sp"
         android:textStyle="bold"
         app:backgroundTint="@color/teal_200"
         tools:ignore="Hardcodedtext" />
-
-    <TextView
-        android:id="@+id/tv4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_x="5dp"
-        android:layout_y="356dp"
-        android:text="TextView"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        tools:ignore="Hardcodedtext" />
-
-    <ImageView
-        android:id="@+id/img3"
-        android:layout_width="131dp"
-        android:layout_height="149dp"
-        android:layout_x="138dp"
-        android:layout_y="79dp"
-        app:srcCompat="@drawable/pat" />
 
 
 </AbsoluteLayout>

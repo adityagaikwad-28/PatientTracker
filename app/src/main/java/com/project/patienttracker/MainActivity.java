@@ -24,15 +24,15 @@ public class MainActivity extends AppCompatActivity {
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent inl=new Intent(MainActivity.this,Doctor.class);
-                startActivity(inl);
+                Intent intent=new Intent(MainActivity.this,Doctor.class);
+                startActivity(intent);
             }
         });
         img1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent inl1=new Intent(MainActivity.this,Patient.class);
-                startActivity(inl1);
+                Intent intent=new Intent(MainActivity.this,Patient.class);
+                startActivity(intent);
             }
         });
 
